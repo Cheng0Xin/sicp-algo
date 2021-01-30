@@ -1,5 +1,4 @@
-#lang racket
-
+;ch2bad.rkt
 
 (define mul *)
 (define add +)
@@ -40,4 +39,11 @@
 (print-rat (sub-rat (make-rat 1 2) (make-rat 3 4)))
 (print-rat (div-rat (make-rat 1 2) (make-rat 3 4)))
 
-(gcd 8 12)
+(define (test-let)
+  (let ((a 1)
+        (b 2)
+        (c 10))
+    (+ a b c)))
+
+(define (test-add a x y)
+  (a x y))

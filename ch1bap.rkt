@@ -1,4 +1,4 @@
-#lang racket
+;ch1bap.rkt
 
 (define (square x) (* x x))
 

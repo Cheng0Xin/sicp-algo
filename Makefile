@@ -1,2 +1,4 @@
+FILE=ch3mos
+
 all:
-	racket ch2bad.rkt
+	racket -if ${FILE}.rkt
